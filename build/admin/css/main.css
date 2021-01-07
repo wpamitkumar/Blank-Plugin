@@ -1,0 +1,99 @@
+* {
+  box-sizing: inherit; }
+
+.settings_page_awesome {
+  background: #f6f6f6;
+  font-size: 0.875rem;
+  position: relative;
+  box-sizing: border-box; }
+
+#wpcontent {
+  padding-left: 0; }
+
+.auto-fold #wpcontent {
+  padding-left: 0; }
+
+#blank-plugin .components-placeholder {
+  background: #f6f6f6;
+  margin-top: 25vh;
+  margin-bottom: 25vh; }
+
+#blank-plugin .blank-plugin-header {
+  padding: 1.25rem 0.625rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 0 rgba(213, 213, 213, 0.5), 0 1px 0.125rem #eee; }
+  #blank-plugin .blank-plugin-header .blank-plugin-container {
+    margin: 0 auto;
+    max-width: 46.875rem; }
+    #blank-plugin .blank-plugin-header .blank-plugin-container .blank-plugin-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+
+#blank-plugin .blank-plugin-main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 46.875rem; }
+  #blank-plugin .blank-plugin-main .components-panel__body {
+    margin: 1.5625rem 0;
+    background: #fff;
+    border: 1px solid #e2e4e7; }
+    #blank-plugin .blank-plugin-main .components-panel__body .components-panel__body-toggle {
+      border-bottom: 1px solid #d6e2ed; }
+    #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row {
+      padding: 0.625rem;
+      margin: 0; }
+      #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control .components-base-control__field {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.625rem; }
+      #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control.blank-plugin-text-field {
+        width: 100%; }
+        #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control.blank-plugin-text-field .components-base-control__field {
+          display: block; }
+          #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control.blank-plugin-text-field .components-base-control__field label {
+            font-weight: 600;
+            margin-bottom: 0.625rem; }
+          #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control.blank-plugin-text-field .components-base-control__field input {
+            border: 1px solid #b7c9d9;
+            border-radius: 0.1875rem;
+            font-size: 0.875rem;
+            padding: 0.5625rem 0.9375rem;
+            width: 100%;
+            box-shadow: none;
+            height: 2.5rem;
+            margin: 0 0 0.625rem 0;
+            color: #444; }
+            #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control.blank-plugin-text-field .components-base-control__field input:disabled {
+              background: #f6f6f6;
+              border-color: #eeeeee;
+              color: #bbbbbb; }
+            #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control.blank-plugin-text-field .components-base-control__field input:focus {
+              border-color: #00a0d2;
+              box-shadow: 0 0 0 1px #00a0d2;
+              outline: 0.125rem solid transparent;
+              outline-offset: -0.125rem; }
+          #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control.blank-plugin-text-field .components-base-control__field .blank-plugin-text-field-button-group {
+            display: flex;
+            align-items: center;
+            margin: 0.125rem 0 0.9375rem; }
+            #blank-plugin .blank-plugin-main .components-panel__body .components-panel__row .components-base-control.blank-plugin-text-field .components-base-control__field .blank-plugin-text-field-button-group .is-primary {
+              padding: 0.125rem 1.25rem;
+              font-size: 0.875rem;
+              margin-right: 0.625rem; }
+  #blank-plugin .blank-plugin-main .blank-plugin-info {
+    padding: 0 0.625rem 0.625rem; }
+    #blank-plugin .blank-plugin-main .blank-plugin-info h2 {
+      font-weight: 300;
+      margin-bottom: 0.625rem; }
+    #blank-plugin .blank-plugin-main .blank-plugin-info p {
+      margin: 0 0 1.5em 0; }
+    #blank-plugin .blank-plugin-main .blank-plugin-info .blank-plugin-info-button-group {
+      display: flex; }
+      #blank-plugin .blank-plugin-main .blank-plugin-info .blank-plugin-info-button-group .is-default {
+        padding: 0.125rem 1.25rem;
+        height: auto;
+        font-size: 0.875rem; }
+        #blank-plugin .blank-plugin-main .blank-plugin-info .blank-plugin-info-button-group .is-default:first-child {
+          margin-right: 0.9375rem; }
+
