@@ -138,8 +138,8 @@ class Blank_Plugin_Admin {
 	 */
 	public function blank_plugin_option_menu() {
 		$page_hook_suffix = add_options_page(
-			__( 'Blank Plugin', 'textdomain' ),
-			__( 'Blank Plugin', 'textdomain' ),
+			__( 'Blank Plugin', 'blank-plugin' ),
+			__( 'Blank Plugin', 'blank-plugin' ),
 			'manage_options',
 			'Blank Plugin',
 			array( $this, 'blank_plugin_menu_callback' )

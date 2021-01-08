@@ -1,5 +1,6 @@
 {
 	"name": "blank-plugin",
+	"author": "Amit Dudhat",
 	"version": "1.0.0",
 	"description": "Blank plugin for WordPress.",
 	"private": true,
@@ -7,11 +8,16 @@
 		"prod": "cross-env NODE_ENV=production webpack --mode production --progress",
 		"dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
 		"clean": "rm -rf build/*",
-		"lint-css": "stylelint src/sass/**/*.scss --syntax scss",
-		"lint-js": "eslint src/js/"
+		"lint-css": "stylelint admin/sass/**/*.scss --syntax scss && stylelint public/sass/**/*.scss --syntax scss ",
+		"lint-js": "eslint admin/js/ && eslint public/js/ ",
+		"pot": "wp-pot --src '**/*.php' --dest-file 'languages/blank-plugin.pot' --domain 'blank-plugin' --package 'Blank Plugin' ",
+		"precommit": "npm run lint-css && npm run lint-js && npm run pot"
 	},
 	"dependencies": {
 		"webfontloader": "^1.6.28"
+	},
+	"peerDependencies": {
+		"postcss": "^8.2.3"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.8.6",
@@ -37,7 +43,8 @@
 		"postcss-assets": "^5.0.0",
 		"postcss-loader": "^3.0.0",
 		"postcss-pxtorem": "^5.0.0",
-		"postcss-scss": "^2.0.0",
+		"postcss-scss": "^3.0.4",
+		"postcss-sort-media-queries": "^3.0.0",
 		"prompt-sync": "^4.2.0",
 		"replace-in-file": "^5.0.2",
 		"sass-loader": "^8.0.2",

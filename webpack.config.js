@@ -42,7 +42,7 @@ var config = {
 
 // If you have common configuration among them, you could use the extend library or Object.assign in ES6 or {...} spread operator in ES7.
 var adminConfig = Object.assign( {}, config, {
-	name: "admin",
+	name: 'admin',
 
 	entry: {
 		main: ADMIN_JS_DIR + '/main.js',
@@ -96,7 +96,7 @@ var adminConfig = Object.assign( {}, config, {
 			},
 			{
 				test: /\.(png|jpg|svg|jpeg|gif|ico)$/,
-				exclude: [ ADMIN_FONTS_DIR , /node_modules/ ],
+				exclude: [ ADMIN_FONTS_DIR, /node_modules/ ],
 				use: {
 					loader: 'file-loader',
 					options: {
@@ -107,7 +107,7 @@ var adminConfig = Object.assign( {}, config, {
 			},
 			{
 				test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-				exclude: [ ADMIN_IMG_DIR , /node_modules/ ],
+				exclude: [ ADMIN_IMG_DIR, /node_modules/ ],
 				use: {
 					loader: 'file-loader',
 					options: {
@@ -133,7 +133,7 @@ var adminConfig = Object.assign( {}, config, {
 } );
 
 var publicConfig = Object.assign( {}, config, {
-	name: "public",
+	name: 'public',
 
 	entry: {
 		main: PUBLIC_JS_DIR + '/main.js'
@@ -186,7 +186,7 @@ var publicConfig = Object.assign( {}, config, {
 			},
 			{
 				test: /\.(png|jpg|svg|jpeg|gif|ico)$/,
-				exclude: [ PUBLIC_FONTS_DIR , /node_modules/ ],
+				exclude: [ PUBLIC_FONTS_DIR, /node_modules/ ],
 				use: {
 					loader: 'file-loader',
 					options: {
@@ -197,7 +197,7 @@ var publicConfig = Object.assign( {}, config, {
 			},
 			{
 				test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-				exclude: [ PUBLIC_IMG_DIR , /node_modules/ ],
+				exclude: [ PUBLIC_IMG_DIR, /node_modules/ ],
 				use: {
 					loader: 'file-loader',
 					options: {

@@ -1,17 +1,8 @@
-* {
-  box-sizing: inherit; }
-
-.settings_page_awesome {
+.settings_page_Blank-Plugin {
   background: #f6f6f6;
   font-size: 0.875rem;
   position: relative;
   box-sizing: border-box; }
-
-#wpcontent {
-  padding-left: 0; }
-
-.auto-fold #wpcontent {
-  padding-left: 0; }
 
 #blank-plugin .components-placeholder {
   background: #f6f6f6;
