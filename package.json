@@ -5,6 +5,7 @@
 	"description": "Blank plugin for WordPress.",
 	"private": true,
 	"scripts": {
+		"init": "./bin/init.js && rm -rf /.git /.github ./bin/ /languages/blank-plugin.pot && npm uninstall replace-in-file prompt-sync",
 		"prod": "cross-env NODE_ENV=production webpack --mode production --progress",
 		"dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
 		"clean": "rm -rf build/*",
